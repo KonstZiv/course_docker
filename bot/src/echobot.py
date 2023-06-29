@@ -4,7 +4,7 @@ It echoes any incoming text messages.
 """
 
 from aiogram import Bot, Dispatcher, types
-from src.settings import BOT_TOKEN
+from bot.src.settings import BOT_TOKEN
 
 
 # Initialize bot and dispatcher

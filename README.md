@@ -2,8 +2,9 @@
 
 ---
 
-[video 1](https://youtu.be/gxVMdoAZEC0) - first day,
+[video 1](https://youtu.be/gxVMdoAZEC0) - first day, creating a common application structure
 
+[video 2](https://youtu.be/EBKqOEFOhJ0) - second day, Dockerfile
 
 ---
 
