@@ -7,7 +7,7 @@ LABEL maintainer="Kostiantyn Zivenko kos.zivenko@gmail.com"
 # за замовчення всі операції виконуються з правами рута. Це не добра практика.
 # докладніше - тут https://habr.com/ru/post/448480/
 # наступні шість рядків необхідні для стоврення користувача, який не є рутом
-# докладно про ARG ENV - https://vsupalov.com/docker-arg-env-variable-gui
+# докладно про ARG ENV - https://vsupalov.com/docker-arg-env-variable-guide/
 ARG UID=1000
 ARG GID=1000
 ENV UID=${UID}
