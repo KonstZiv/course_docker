@@ -1,0 +1,23 @@
+services:
+  lesson_bot:
+    container_name: lesson_bot_container
+    image: lesson_bot_image
+    build:
+      context: .
+    environment:
+      BOT_TOKEN: "${BOT_TOKEN}"
+    depends_on:
+      - bot_db
+  
+  bot_db:
+      container_name: postgres_container
+      image: postgres:15
+      volumes:
+        - postgres_data:/data/postgres
+      ports:
+        - "5432:5432"
+      environment:
+        PGDATA: /data/postgres
+
+volumes:
+  postgres_data:
