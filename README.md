@@ -6,6 +6,8 @@
 
 [video 2](https://youtu.be/smBGz7QMYtQ) - second day, Dockerfile
 
+[video 3](https://youtu.be/01s-iM9pR-I) - third day, about ports, volume, networks and docker-compose
+
 ---
 
 [aiogram](https://pypi.org/project/aiogram/)
