@@ -4,6 +4,8 @@ services:
     image: lesson_bot_image
     build:
       context: .
+    env_file:
+      - .env
     environment:
       BOT_TOKEN: "${BOT_TOKEN}"
     depends_on:
@@ -16,8 +18,24 @@ services:
         - postgres_data:/data/postgres
       ports:
         - "5432:5432"
+      env_file:
+        - .env
       environment:
         PGDATA: /data/postgres
+  
+  pgadmin:
+    container_name: pgadmin_container
+    image: dpage/pgadmin4
+    profiles:
+      - "dev"
+    restart: on-failure
+    env_file:
+      - .env
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
 
 volumes:
   postgres_data:
+  pgadmin_data:

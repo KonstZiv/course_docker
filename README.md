@@ -8,6 +8,8 @@
 
 [video 3](https://youtu.be/01s-iM9pR-I) - third day, about ports, volume, networks and docker-compose
 
+[video 4](https://youtu.be/1VRc_8jBIpI) - fourth day, add pgAdmin, create DB, start create table
+
 ---
 
 [aiogram](https://pypi.org/project/aiogram/)
