@@ -10,6 +10,8 @@
 
 [video 4](https://youtu.be/1VRc_8jBIpI) - fourth day, add pgAdmin, create DB, start create table
 
+[video 5](https://youtu.be/sUOrC-2N3Jg) - fifth day, refactor bot code, start finall app in 'dockerized' structure
+
 ---
 
 [aiogram](https://pypi.org/project/aiogram/)

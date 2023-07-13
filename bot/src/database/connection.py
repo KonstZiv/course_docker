@@ -8,12 +8,13 @@ password = os.environ["POSTGRES_PASSWORD"]
 host = os.environ["DB_HOST"]
 port = os.environ["DB_PORT"]
 
+
 def create_connection(
-        db_name=name,
-        db_user=user,
-        db_password=password,
-        db_host=host,
-        db_port=port,
+    db_name=name,
+    db_user=user,
+    db_password=password,
+    db_host=host,
+    db_port=port,
 ):
     try:
         print("try connection...")
