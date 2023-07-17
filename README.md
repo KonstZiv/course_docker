@@ -19,3 +19,5 @@
 [dotenv](https://pypi.org/project/python-dotenv/)
 
 [.flake8 example](https://gist.github.com/krnd/1f3fb6c05af365977e486c47cb7b4a72) - example of configuration
+
+[uses](https://github.com/appleboy/ssh-action)
