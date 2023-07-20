@@ -12,6 +12,8 @@
 
 [video 5](https://youtu.be/sUOrC-2N3Jg) - fifth day, refactor bot code, start finall app in 'dockerized' structure
 
+[video 6](https://youtu.be/4icES07nSiQ) - summary
+
 ---
 
 [aiogram](https://pypi.org/project/aiogram/)
