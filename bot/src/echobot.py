@@ -42,3 +42,5 @@ async def echo(message: types.Message):
     execute_query(insert_query)
 
     await message.answer(message.text)
+    await message.answer(message.text)
+    await message.answer(message.text)
